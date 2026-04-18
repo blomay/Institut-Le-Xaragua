@@ -1,0 +1,115 @@
+/* RESET */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* BODY */
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f3e6;
+color: #333;
+line-height: 1.6;
+}
+
+/* HEADER */
+header {
+background: #6b4c3b;
+color: white;
+padding: 1rem;
+text-align: center;
+position: sticky;
+top: 0;
+}
+
+/* NAVIGATION */
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+padding: 6px 12px;
+border-radius: 20px;
+transition: 0.3s;
+}
+
+nav a:hover {
+background: rgba(255,255,255,0.2);
+}
+
+/* MAIN */
+main {
+padding: 20px;
+text-align: center;
+}
+
+/* HERO */
+.hero {
+padding: 40px;
+background: #fff;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+/* CARDS */
+.card {
+background: white;
+padding: 15px;
+margin: 10px auto;
+width: 60%;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+/* CONTACT */
+.contact-container {
+display: flex;
+justify-content: space-around;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-info {
+width: 300px;
+}
+
+input, textarea {
+width: 100%;
+margin: 8px 0;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+background: #6b4c3b;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+}
+
+button:hover {
+background: #8b5e48;
+}
+
+/* FOOTER */
+footer {
+background: #6b4c3b;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
